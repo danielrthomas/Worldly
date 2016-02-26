@@ -22,3 +22,18 @@
 	width: 5em;
     height: 5em;
 }
+
+.languageCol{
+	margin-top: 2em;
+	text-align: center;
+	border: solid 0.2em black;
+}
+
+.tableCell{
+	padding: 1em;
+	background-color: white;
+}
+
+.tableCell:hover{
+	background-color: red;
+}
