@@ -1,7 +1,7 @@
 .navbar{
 	background-color: white;
 	border-color: white;
-	font-family: 'Century Gothic';
+	font-family: Sans-Serif;
 	padding-top: 1em;
 	padding-right: 2em;
 }
@@ -10,11 +10,10 @@
 	padding-left: 6em;
 
 }
-.navbar-brand{
-	font-size: 4em;
-	font-style: italic;
-	font-variant: normal;
-    color: black!important;
-}
-.navbar-toggle{
+
+.worldly_intro{
+	font-family: Sans-Serif;
+	text-align: center;
+	padding-top: 1.5em;
+	font-size: 8em;
 }
