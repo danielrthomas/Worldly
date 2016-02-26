@@ -1,0 +1,20 @@
+.navbar{
+	background-color: white;
+	border-color: white;
+	font-family: 'Century Gothic';
+	padding-top: 1em;
+	padding-right: 2em;
+}
+.navbar-header{
+	padding-top: 4em;
+	padding-left: 6em;
+
+}
+.navbar-brand{
+	font-size: 4em;
+	font-style: italic;
+	font-variant: normal;
+
+}
+.navbar-toggle{
+}
