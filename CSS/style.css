@@ -1,19 +1,24 @@
 .navbar{
 	background-color: white;
 	border-color: white;
-	font-family: Sans-Serif;
+	font-family: Verdana;
 	padding-top: 1em;
 	padding-right: 2em;
 }
 .navbar-header{
 	padding-top: 4em;
-	padding-left: 6em;
+	padding-left: 5em;
 
 }
 
-.worldly_intro{
-	font-family: Sans-Serif;
+.worldly_center{
+	font-family: Verdana;
 	text-align: center;
-	padding-top: 1.5em;
-	font-size: 8em;
+	padding-top: 0.5em;
+	font-size: 10em;
+}
+
+#img_world{
+	width: 5em;
+    height: 5em;
 }
