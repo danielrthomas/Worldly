@@ -38,7 +38,7 @@ body{
 .login_box{
 	background-color: #8cc6ea;
 	margin-left: 20em;
-	height: 20em;
+	height: 25em;
 	width: 50em;
 }
 .login{
@@ -49,15 +49,16 @@ body{
 .username{
 	text-align: left;
 	padding-left: 5em;
-	padding-top: 3em;
 	color:white;
 	font-style: bold;
+	margin-top: 1.1em;
 }
 .my_username{
-	text-align: center;
+	text-align: left;
+	margin-left: 13em;
 	background-color: white;
 	height: 3em;
-	width:23em;
+	width:25em;
 }
 
 
