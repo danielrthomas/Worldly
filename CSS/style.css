@@ -3,22 +3,26 @@ body{
 }
 
 .navbar{
-	background-color: white;
+	background-color:#4994d8;
+	color: black;
+	font-size: 1em;
 	border-color: white;
-	padding-right: 2em;
 }
 .navbar-header{
 	padding-top: 2em;
 	padding-left: 2em;
-
 }
 
 .worldly_center{
-	background-color: #33ace6;
+	background-color: white;
+	color: black;
+	background-image: url('../background.png');
+	background-size: 100em 50em;
+	height: 100em;
+ 	background-repeat:no-repeat;
 	margin-top: 5em;
 	text-align: center;
 	padding-top: 3em;
-	padding-bottom: 3em;
 }
 .worldly_home{
 	font-size: 10em;
@@ -28,22 +32,3 @@ body{
 	font-style: italic;
 }
 
-.img_world{
-	width: 5em;
-    height: 5em;
-}
-
-.languageCol{
-	margin-top: 2em;
-	text-align: center;
-	border: solid 0.2em black;
-}
-
-.tableCell{
-	padding: 1em;
-	background-color: white;
-}
-
-.tableCell:hover{
-	background-color: red;
-}
