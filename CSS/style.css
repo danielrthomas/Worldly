@@ -35,4 +35,29 @@ body{
 	font-size: 2em;
 	font-style: italic;
 }
+.login_box{
+	background-color: #8cc6ea;
+	margin-left: 20em;
+	height: 20em;
+	width: 50em;
+}
+.login{
+	text-align: center;
+	font-size: 5em;
+	color:white;
+}
+.username{
+	text-align: left;
+	padding-left: 5em;
+	padding-top: 3em;
+	color:white;
+	font-style: bold;
+}
+.my_username{
+	text-align: center;
+	background-color: white;
+	height: 3em;
+	width:23em;
+}
+
 
