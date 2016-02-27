@@ -61,4 +61,34 @@ body{
 	width:25em;
 }
 
+#video-screen{
+	margin: 0 auto;
+	background-color: black;
+	text-align: center;
+	height: 25em;
+	width: 35em;
+}
+
+#location, #language, #topic, #now-chatting{
+	text-align: center;
+	color: #5d5e69;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#launchpad{
+	color: #5d5e69;
+	font-size: 5em;
+	margin-bottom: .5em;
+}
+
+#selectors{
+	color: #5d5e69;
+	margin-bottom: 3em;
+}
+
 
