@@ -41,6 +41,12 @@ body{
 	height: 25em;
 	width: 50em;
 }
+.signup_box{
+	background-color: #8cc6ea;
+	margin-left: 20em;
+	height: 50em;
+	width: 50em;
+}
 .login{
 	text-align: center;
 	font-size: 5em;
@@ -59,6 +65,13 @@ body{
 	background-color: white;
 	height: 3em;
 	width:25em;
+}
+.my_plus{
+	text-align: center;
+	font-size: 2em;
+}
+.Go{
+	margin-top: 3em;
 }
 
 
