@@ -53,6 +53,14 @@ body{
 	height: 25em;
 	width: 33em;
 }
+.chatting_box{
+	position: relative;
+	top: -7em;
+	background-color: #8cc6ea;
+	margin-left: 20em;
+	height: 35em;
+	width: 50em;
+}
 .login{
 	text-align: center;
 	font-size: 5em;
@@ -85,12 +93,16 @@ body{
 	background-color: black;
 	text-align: center;
 	height: 25em;
-	width: 35em;
+	width: 37em;
+}
+
+#now-chatting{
+	margin-top: 2em;
 }
 
 #location, #language, #topic, #now-chatting{
 	text-align: center;
-	color: #5d5e69;
+	color: white;
 }
 
 .center-block {
@@ -100,13 +112,13 @@ body{
 }
 
 #launchpad{
-	color: #5d5e69;
+	color: white;
 	font-size: 5em;
 	margin-bottom: .5em;
 }
 
 #selectors{
-	color: #5d5e69;
+	color: white;
 	margin-bottom: 3em;
 }
 
