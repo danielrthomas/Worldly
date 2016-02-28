@@ -96,21 +96,18 @@ body{
 	width: 37em;
 }
 
-<<<<<<< HEAD
 .languageCol{
 	margin-top: 1em;
-=======
+}
 #now-chatting{
 	margin-top: 2em;
 }
 
 #location, #language, #topic, #now-chatting{
->>>>>>> 942eb81aa7634813e7f8f8cc09d69730456f3b2a
 	text-align: center;
 	color: white;
 }
 
-<<<<<<< HEAD
 .tableCell{
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -128,7 +125,7 @@ body{
 .languageButton:hover{
 	background-color: yellow;
 }
-=======
+
 .center-block {
   display: block;
   margin-left: auto;
@@ -145,6 +142,3 @@ body{
 	color: white;
 	margin-bottom: 3em;
 }
-
->>>>>>> 942eb81aa7634813e7f8f8cc09d69730456f3b2a
-
