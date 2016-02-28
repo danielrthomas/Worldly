@@ -24,16 +24,26 @@
 }
 
 .languageCol{
-	margin-top: 2em;
+	margin-top: 1em;
 	text-align: center;
 	border: solid 0.2em black;
 }
 
 .tableCell{
-	padding: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	background-color: white;
 }
 
 .tableCell:hover{
+	background-color: blue;
+}
+
+.languageButton{
 	background-color: red;
 }
+
+.languageButton:hover{
+	background-color: yellow;
+}
+
