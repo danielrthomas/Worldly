@@ -47,6 +47,12 @@ body{
 	height: 50em;
 	width: 50em;
 }
+.launchpad_box{
+	background-color: #8cc6ea;
+	margin-left: 28em;
+	height: 25em;
+	width: 33em;
+}
 .login{
 	text-align: center;
 	font-size: 5em;
