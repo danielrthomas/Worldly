@@ -29,25 +29,38 @@
 	   	 <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
-
 	    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      	<ul class="nav navbar-nav navbar-right">
 	        	<li><a href="#">About</a></li>
-	        	<li><a href="login.html">Login</a></li>
-	        	<li><a href="signin.html">Sign Up</a></li>
 	        	<li><a href="#">Contact</a></li>
+	        	<li><a href="#">Logout</a></li>
 	      	</ul>
 	   	 </div><!-- /.navbar-collapse -->
 	 	 </div><!-- /.container-fluid -->
-
 	</nav>
-
-	<div class = "worldly_center">
-		<div class="container-fluid">
-			<div class = "worldly_home">WORLDLY</div>
-		</div>
-		<div class = "worldly_slogan">Connecting university students since 2016</div>
+	<div class = "back-button">
+		<button type = "button" class = "btn btn-default">Back</button>
 	</div>
+		<div class = "worldly_center">
+			<div class="container-fluid">
+				<div class = "chatting_box">
+					<div id = "now-chatting">You are now chatting with a stranger!</div>
+					<div class = "call-attributes">
+						<div id = "topic">Topic:</div>
+						<div id = "location">Location:</div>
+						<div id = "language">Language:</div>
+					</div>
+					<div id = "video-screen">
+						<img src="http://images.sodahead.com/polls/000547669/polls_profiles_1202SHAvatarFred_1028_226520_xlarge_4111_489972_answer_1_xlarge.jpeg">
+							</img>
+					</div>
+					<div class = "btn-group" class = "center-block" role="group" aria-label="...">
+			  			<button id = "leftb" type="button" class="btn btn-default">End Chat</button>
+			  			<button id = "rightb" type="button" class="btn btn-default">New Chat</button>
+					</div>
+				</div>
+			</div>
+		</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	<script src="../js/bootstrap.min.js"></script>
    </body>

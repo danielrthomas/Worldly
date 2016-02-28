@@ -1,0 +1,150 @@
+body{
+	font-family: Verdana;
+}
+
+.navbar{
+	background-color:#8cc6ea;
+	color: white;
+	font-size: 1em;
+	border-color: white;
+}
+
+
+.navbar-header{
+	font-style: bold; 
+	padding-top: 5em;
+	padding-bottom: 2em;
+	padding-left: 5em;
+}
+
+.worldly_center{
+	background-color: white;
+	color: black;
+	background-image: url('../background.png');
+	background-size: 100em 50em;
+	height: 100em;
+ 	background-repeat:no-repeat;
+	margin-top: 3em;
+	text-align: center;
+	padding-top: 5em;
+}
+.worldly_home{
+	font-size: 10em;
+}
+.worldly_slogan{
+	font-size: 2em;
+	font-style: italic;
+}
+.login_box{
+	background-color: #8cc6ea;
+	margin-left: 20em;
+	height: 25em;
+	width: 50em;
+}
+.signup_box{
+	background-color: #8cc6ea;
+	margin-left: 20em;
+	height: 50em;
+	width: 50em;
+}
+.launchpad_box{
+	background-color: #8cc6ea;
+	margin-left: 28em;
+	height: 25em;
+	width: 33em;
+}
+.chatting_box{
+	position: relative;
+	top: -7em;
+	background-color: #8cc6ea;
+	margin-left: 20em;
+	height: 35em;
+	width: 50em;
+}
+.login{
+	text-align: center;
+	font-size: 5em;
+	color:white;
+}
+.username{
+	text-align: left;
+	padding-left: 5em;
+	color:white;
+	font-style: bold;
+	margin-top: 1.1em;
+}
+.my_username{
+	text-align: left;
+	margin-left: 13em;
+	background-color: white;
+	height: 3em;
+	width:25em;
+}
+.my_plus{
+	text-align: center;
+	font-size: 2em;
+}
+.Go{
+	margin-top: 3em;
+}
+
+#video-screen{
+	margin: 0 auto;
+	background-color: black;
+	text-align: center;
+	height: 25em;
+	width: 37em;
+}
+
+<<<<<<< HEAD
+.languageCol{
+	margin-top: 1em;
+=======
+#now-chatting{
+	margin-top: 2em;
+}
+
+#location, #language, #topic, #now-chatting{
+>>>>>>> 942eb81aa7634813e7f8f8cc09d69730456f3b2a
+	text-align: center;
+	color: white;
+}
+
+<<<<<<< HEAD
+.tableCell{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: white;
+}
+
+.tableCell:hover{
+	background-color: blue;
+}
+
+.languageButton{
+	background-color: red;
+}
+
+.languageButton:hover{
+	background-color: yellow;
+}
+=======
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#launchpad{
+	color: white;
+	font-size: 5em;
+	margin-bottom: .5em;
+}
+
+#selectors{
+	color: white;
+	margin-bottom: 3em;
+}
+
+>>>>>>> 942eb81aa7634813e7f8f8cc09d69730456f3b2a
+
