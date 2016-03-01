@@ -16,7 +16,17 @@ $(document).ready(function(){
 			document.getElementById("languages").textContent = "Done";
 		}
 	}
+	else if(location.pathname.slice(-10) === "index.html"){
+		clearStorage();
+	}
 })
+
+function clearStorage(){
+	localStorage.setItem("username","");
+	localStorage.setItem("name","");
+	localStorage.setItem("password","");
+	localStorage.setItem("email","");
+}
 
 function openPage () {
 	username = document.getElementById("username").value
@@ -45,6 +55,16 @@ function openLanguagePage () {
 function openFromLanguages(){
 	localStorage.setItem("languages",languages);
 	location.href = "signin.html";
+}
+
+function openFromLocation(){
+	localStorage.setItem("locations",locations);
+	location.href = "launchpad.html";
+}
+
+function openFromInterest(){
+	localStorage.setItem("interests",interests);
+	location.href = "launchpad.html";
 }
 
 function test(){
