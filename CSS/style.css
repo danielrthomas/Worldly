@@ -125,6 +125,18 @@ body{
 .languageCol{
 	margin-top: 1em;
 }
+
+.languageContainer{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 50px;
+	background-color: #03A9F4;
+	text-align: center;
+	font-size: 2em;
+	 background: rgba(0,0,0,0.6);
+    color: #fff;
+}
+
 #now-chatting{
 	margin-top: 2em;
 	font-size: 1.5em;
@@ -143,8 +155,10 @@ body{
 .tableCell{
 	padding-top: 1em;
 	padding-bottom: 1em;
-	background-color: white;
-	width: 300px;
+	border: 10px;
+	border-color: black;
+
+	width: 100%;
 	position: relative;
 }
 
