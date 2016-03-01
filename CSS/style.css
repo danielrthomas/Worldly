@@ -73,12 +73,10 @@ body{
 	width: 40em;*/
 }
 .chatting_box{
-	position: relative;
-	top: -7em;
+	position: absolute;
 	background-color: #8cc6ea;
-	margin-left: 20em;
-	height: 38em;
-	width: 50em;
+	vertical-align: center;
+	border-radius: 5%;
 }
 .login{
 	text-align: center;
@@ -118,8 +116,6 @@ body{
 	margin: 0 auto;
 	background-color: black;
 	text-align: center;
-	height: 25em;
-	width: 37em;
 }
 
 .languageCol{
@@ -140,10 +136,6 @@ body{
 #now-chatting{
 	margin-top: 2em;
 	font-size: 1.5em;
-}
-
-#chat_buttons, .back-button{
-	margin: 1em;
 }
 
 #location, #language, #interest, #now-chatting{
@@ -175,9 +167,8 @@ body{
 }
 
 .center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	vertical-align: center;
+	text-align: center;
 }
 
 #launchpad{
