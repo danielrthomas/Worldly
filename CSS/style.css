@@ -65,10 +65,12 @@ body{
 }
 
 .launchpad_box{
+	position: absolute;
 	background-color: #8cc6ea;
-	margin-left: 28em;
-	height: 23em;
-	width: 40em;
+	vertical-align: center;
+	border-radius: 5%;
+/*	height: 23em;
+	width: 40em;*/
 }
 .chatting_box{
 	position: relative;
@@ -166,16 +168,22 @@ body{
 
 #launchpad{
 	color: white;
-	font-size: 5em;
+	font-size: 3em;
 	margin-bottom: .5em;
+	vertical-align: center;
+	text-align: center;
 }
 
 #selectors{
 	font-size: 1.5em;
 	color: white;
-	margin-bottom: 3em;
+	vertical-align: center;
+	text-align: center;
 }
 
 #loc_button, #lan_button, #int_button{
-	margin-left: 5em;
+/*	vertical-align: center;
+	text-align: center;*/
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
