@@ -15,7 +15,6 @@ function addRow(tableID, clickedButton) {
 			cell1.innerHTML = clickedButton;
 			row.insertCell(0).innerHTML= '<button class="btn languageButton" type="button" value = "Delete" onclick="Javascript:deleteRow(this)">';
 			languages.push(clickedButton)
-			console.log(languages);
         }
 		
 		function deleteRow(obj) {

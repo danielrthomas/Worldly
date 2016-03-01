@@ -55,3 +55,7 @@ function test(){
 	console.log(localStorage.getItem("email"))
 	console.log(localStorage.getItem("languages"))
 }
+
+function openChat(){
+	location.href = "chatpage.html";
+}
