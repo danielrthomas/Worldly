@@ -75,6 +75,13 @@ body{
 }
 .my_username{
 	text-align: left;
+	margin-left: 1em;
+	background-color: white;
+	height: 3em;
+	width:25em;
+}
+.plus{
+	text-align: left;
 	margin-left: 13em;
 	background-color: white;
 	height: 3em;
