@@ -19,7 +19,34 @@ $(document).ready(function(){
 	else if(location.pathname.slice(-10) === "index.html"){
 		clearStorage();
 	}
+	else if(location.pathname.slice(-13) === "chatpage.html"){
+		addInfo();
+	}
 })
+
+function addInfo(){
+	var interest = getInfo("interests")
+	var location = getInfo("locations")
+	var language = getInfo("languages")
+
+	document.getElementById("interest").textContent = "Interest: " + interest;
+	document.getElementById("location").textContent = "Location: " + location;
+	document.getElementById("language").textContent = "Language: " + language;
+}
+
+function getInfo(str){
+	var testString = "";
+	var thing = localStorage.getItem(str);
+	for(var i = 0; i < thing.length; ++i){
+		if(thing[i] === ","){
+			return testString;
+		} 
+		else{
+			testString+=thing[i]
+		}
+	}
+	return testString;
+}
 
 function clearStorage(){
 	localStorage.setItem("username","");

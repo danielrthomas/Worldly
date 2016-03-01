@@ -122,8 +122,9 @@ body{
 	font-size: 2em;
 }
 .Go{
-/*	margin-top: 3em;
-*/}
+	vertical-align: center;
+	text-align: center;
+}
 
 #video-screen{
 	margin: 0 auto;
