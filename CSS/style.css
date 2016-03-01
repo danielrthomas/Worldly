@@ -9,13 +9,13 @@ body{
 	border-color: white;
 }
 
-
 .navbar-header{
 	font-style: bold; 
 	padding-top: 5em;
 	padding-bottom: 2em;
 	padding-left: 5em;
 }
+
 
 .worldly_center{
 	background-color: white;
@@ -58,7 +58,7 @@ body{
 	top: -7em;
 	background-color: #8cc6ea;
 	margin-left: 20em;
-	height: 35em;
+	height: 38em;
 	width: 50em;
 }
 .login{
@@ -101,11 +101,17 @@ body{
 }
 #now-chatting{
 	margin-top: 2em;
+	font-size: 1.5em;
+}
+
+#chat_buttons, .back-button{
+	margin: 1em;
 }
 
 #location, #language, #topic, #now-chatting{
 	text-align: center;
 	color: white;
+	margin: .5em;
 }
 
 .tableCell{
