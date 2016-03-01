@@ -67,8 +67,8 @@ body{
 .launchpad_box{
 	background-color: #8cc6ea;
 	margin-left: 28em;
-	height: 25em;
-	width: 33em;
+	height: 23em;
+	width: 40em;
 }
 .chatting_box{
 	position: relative;
@@ -132,7 +132,7 @@ body{
 	margin: 1em;
 }
 
-#location, #language, #topic, #now-chatting{
+#location, #language, #interest, #now-chatting{
 	text-align: center;
 	color: white;
 	margin: .5em;
@@ -171,6 +171,11 @@ body{
 }
 
 #selectors{
+	font-size: 1.5em;
 	color: white;
 	margin-bottom: 3em;
+}
+
+#loc_button, #lan_button, #int_button{
+	margin-left: 5em;
 }
