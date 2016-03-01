@@ -1,3 +1,7 @@
+var firstInterest;
+var firstLanguage;
+var firstLocation;
+
 function addRow(tableID, clickedButton) {
  
             var table = document.getElementById(tableID);
@@ -9,7 +13,7 @@ function addRow(tableID, clickedButton) {
 			cell1.className = 'tableCell';
             
 			cell1.innerHTML = clickedButton;
-			row.insertCell(1).innerHTML= '<button class="btn languageButton" type="button" value = "Delete" onclick="Javascript:deleteRow(this)">';
+			row.insertCell(0).innerHTML= '<button class="btn languageButton" type="button" value = "Delete" onclick="Javascript:deleteRow(this)">';
  
         }
 		
