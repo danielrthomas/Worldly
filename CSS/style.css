@@ -36,6 +36,21 @@ body{
 	vertical-align: center;
 	text-align: center;
 	font-size: 10em;
+	color: white;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;
+    width: 100%
+}
+#sub{
+	font-size: .25em;
+	text-shadow:
+    -1.5px -1.5px 0 #000,
+    1.5px -1.5px 0 #000,
+    -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
 }
 .worldly_center2{
 	background-color: white;
